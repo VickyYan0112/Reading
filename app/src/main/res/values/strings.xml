@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Reading</string>
-    <string name="tv_label1">开启读书世界</string>
+    <string name="tv_label1">Reading</string>
+    <string name="tv_label2">点击开启读书世界</string>
 </resources>
