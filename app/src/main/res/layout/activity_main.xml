@@ -32,12 +32,14 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="20sp"
+        android:paddingTop="40sp"
         android:typeface="sans"
         android:textSize="20sp"
         android:textColor="@color/color1"
         android:layout_gravity="center"
+        android:onClick="onClick"
         android:text="@string/tv_label2" />
+
 
 
 </LinearLayout>
