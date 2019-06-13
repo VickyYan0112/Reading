@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void onClick(View view){
+    public void onClick1(View view){
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this,BookshelfActivity.class);
+        intent.setClass(MainActivity.this,BookClassificationActivity.class);
         startActivity(intent);
     }
 }
