@@ -1,9 +1,11 @@
-package com.yan.reading;
+package com.yan.reading.PageAdapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.yan.reading.Fragment.FifthFragment;
+import com.yan.reading.Fragment.FourthFragment;
 
 public class MyPageAdapter2 extends FragmentStatePagerAdapter {
 

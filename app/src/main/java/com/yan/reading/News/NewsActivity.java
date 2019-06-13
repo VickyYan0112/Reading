@@ -1,9 +1,12 @@
-package com.yan.reading;
+package com.yan.reading.News;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.yan.reading.PageAdapter.MyPageAdapter2;
+import com.yan.reading.R;
 
 public class NewsActivity extends AppCompatActivity {
 

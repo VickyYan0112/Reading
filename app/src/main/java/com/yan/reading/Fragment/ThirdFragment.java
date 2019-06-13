@@ -1,4 +1,4 @@
-package com.yan.reading;
+package com.yan.reading.Fragment;
 
 import android.support.v4.app.Fragment;
 

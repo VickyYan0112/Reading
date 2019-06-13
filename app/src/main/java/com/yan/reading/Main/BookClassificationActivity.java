@@ -1,9 +1,14 @@
-package com.yan.reading;
+package com.yan.reading.Main;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.yan.reading.News.NewsActivity;
+import com.yan.reading.R;
+import com.yan.reading.ScienceActivity;
+import com.yan.reading.Sports.SportsActivity;
 
 public class BookClassificationActivity extends AppCompatActivity {
 
@@ -22,6 +27,12 @@ public class BookClassificationActivity extends AppCompatActivity {
     public void onClick3(View view) {
         Intent intent = new Intent();
         intent.setClass(BookClassificationActivity.this,NewsActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClick4(View view) {
+        Intent intent = new Intent();
+        intent.setClass(BookClassificationActivity.this,SportsActivity.class);
         startActivity(intent);
     }
 }
